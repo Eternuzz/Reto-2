@@ -1,0 +1,353 @@
+header{
+    display: flex;
+    
+    height: 24vh;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.centro{
+    height: 70%;
+    display: flex;
+    border-radius: 20px 20px 0 0;
+    background-color: silver;
+
+}
+.text{
+    display: flex;
+    
+    width: 55%;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(34, 34, 34);
+
+}
+.titt{
+    display: flex;
+    width: 80%;
+    font-size: 3.5rem;
+    color:rgb(49, 49, 49);
+    justify-content: center;
+
+}
+.titt1{
+    display: flex;
+    width: 80%;
+    font-size: 1.8rem;
+    justify-content: center;
+}
+
+.imgs{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+.ig{
+    width: 50%;
+    height: 80%;
+    background-image: url(../Img/logo.png);
+    background-size: contain;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.barrita{
+    height: 3%;
+    border: 1px solid;
+    background-color: black;
+}
+.barra{
+    height: 27%;
+    display: flex;
+    background-color: rgba(158, 151, 50, 0.774);
+    justify-content: space-around;
+    align-items: center;
+    
+    border-radius: 0 0 20px 20px;
+}
+.barra a{
+    text-decoration: none;
+    color: silver;
+    font-size: 2rem;
+}
+.barra p{
+    font-size: 2rem;
+    color: silver;
+}
+main{
+    display: flex;
+    height: 60vh;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.main1{
+    display: flex;
+    height: 96%;
+    width: 100%;
+   
+    justify-content: space-between;
+    gap: 1rem;
+}
+.contain_art{
+    display: flex;
+    flex-direction: column;
+    
+    width: 26%;
+    height: 100%;
+    justify-content: space-between;
+}
+.art1{
+    display:flex;
+    height: 48%;
+    flex-direction: column;
+    ;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px 30px 0 0;
+    background-color: rgba(192, 192, 192, 0.507);
+}
+.art2{
+    display:flex;
+    height: 48%;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px 0px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.799);
+}
+
+.tit{
+    display: flex;
+    
+    width: 99%;
+    height: 15%;
+    border-radius: 30px 30px 0 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.799);
+}
+.tit2{
+    display: flex;
+    
+    width: 99%;
+    height: 15%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.tit p, .tit2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: rgb(214, 214, 0);
+    
+    width: 96%;
+    
+}
+.tit p{
+    color: silver;
+}
+.texxt{
+    display: flex;
+    border-top: 1px solid;
+    width: 80%;
+    height: 13%;
+    align-items: center;
+    justify-content: center;
+    color: silver;
+}
+.texxt1{
+    display: flex;
+    color: silver;
+    width: 80%;
+    height: 13%;
+    align-items: center;
+    justify-content: center;
+}
+
+aside{
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height:100% ;
+    border-radius: 30px;
+    
+}
+
+.div{
+    display: flex;
+    
+    width: 80%;
+    height: 15%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.div p{
+    
+    width: 40%;
+    color: dimgray;
+    font-size: 14px;
+}
+.div input{
+    width: 40%;
+    border: 2px solid;
+    border-color: darkgrey;
+}
+button{
+    border: 2px solid;
+    width: 50%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(251, 251, 77);
+}
+.boton{
+    
+    width: 80%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 30px 30px;
+    background-color: rgba(0, 0, 0, 0.799);
+}
+.tex-ft{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    align-items: center;
+    color: silver;
+}
+.articulos{
+    display: flex;
+
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top, .bot{
+    display: flex;
+ 
+    height: 48%;
+    justify-content: space-between;
+}
+.parte{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+    height: 100%;
+    background-color: rgb(209, 209, 209);
+    border-radius: 30px 0 0 0;
+}
+.parte1, .parte2, .parte3{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+    height: 100%;
+    background-color: rgb(209, 209, 209);
+}
+.parte1{
+    border-radius: 0 30px 0 0;
+}
+.parte2{
+    border-radius: 0 0 0 30px;
+}
+.parte3{
+    border-radius: 0 0 30px 0;
+}
+.ctt,.ctt1,.ctt2,.ctt3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: silver;
+    height: 20%;
+}
+.ctt{
+    border-radius: 30px 0 0 0;
+}
+.ctt1{
+    border-radius: 0 30px 0 0;
+}
+
+
+.contt1{
+    display: flex;
+
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.contt1 i{
+    width: 70% ;
+    height: 100%;
+    background-image: url(../Img/card.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.contt5{
+    border-radius: 0 0 0 30px;
+    margin-left:10px ;
+    margin-bottom: 5px;
+}
+.contt6{
+    border-radius: 0 0 30px 0;
+}
+
+.cimg,.cimg1,.cimg2{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.cimg i{
+    width: 70% ;
+    height: 100%;
+    background-image: url(../Img/libros1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.cimg1 i{
+    width: 70% ;
+    height: 100%;
+    background-image: url(../Img/trato1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.cimg2 i{
+    width: 70% ;
+    height: 100%;
+    background-image: url(../Img/credito.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
